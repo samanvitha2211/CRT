@@ -56,3 +56,11 @@ else:
     print(fact)
 '''
 
+a = int(input())
+b = int(input())
+while b: 
+    a,b = b,a%b
+print(a)
+
+import math
+print(math.gcd(a,b))
